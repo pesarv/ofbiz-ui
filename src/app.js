@@ -58,6 +58,13 @@ export class App {
         moduleId: PLATFORM.moduleName(
           'affiliate-manager/view/aff-partner/manage-aff-partner'
         )
+      },
+      {
+        route: 'marketdata',
+        name: 'marketdata',
+        moduleId: PLATFORM.moduleName(
+          'marketdata/marketdata'
+        )
       }
     ]);
     this.router = router;
