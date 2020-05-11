@@ -25,7 +25,8 @@
       <td>${company.code}</td>
       <td>${company.active}</td>
       <td>${company.address + ', ' + company.city}</td>
-      <td><button class="btn btn-primary" style="margin: 1% 1% 1% 1%"><i class="fa fa-pencil"></i></button></td>
+      <td><href click.delegate = "updateCompany(company)" style="margin: 1% 1% 1% 1%"><i class="fa fa-pencil"></i></href></td>
+      <td><button click.delegate = "removeCompany(company)">DEL</button></td>
     </tr>
     </tbody>
   </table>
